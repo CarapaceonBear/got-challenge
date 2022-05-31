@@ -1,0 +1,18 @@
+@use "./variables" as *;
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 20vh;
+    color: $dark-text-color;
+
+    background-color: $primary-color;
+
+    &__image {
+        width: 30%;
+        min-width: 300px;
+    }
+}

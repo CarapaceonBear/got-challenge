@@ -1,0 +1,19 @@
+@use "./variables" as *;
+
+body {
+    // reset
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    //
+
+    height: 550vh;
+
+    color: $light-text-color;
+
+    background: rgb(168,45,21);
+    background: linear-gradient(0deg, rgba(168,45,21,1) 0%, rgba(80,17,5,1) 7%, rgba(28,1,1,1) 66%);
+}
